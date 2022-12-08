@@ -17,3 +17,4 @@ protobuf==3.20.0
 pandas_profiling==3.5.0
 ipykernel==6.19.0
 seaborn==0.12.1
+botocore==1.20.112
