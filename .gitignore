@@ -1,9 +1,3 @@
-# data/**
-
-
-
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -128,3 +122,4 @@ outputs/
 # pycache 
 __pycache__/
 
+# other
