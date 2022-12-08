@@ -42,6 +42,10 @@ def run_training_pipeline(config):
     logger.info(f"train_df.shape is {train_df.shape}")
     logger.info(f"val_df.shape is {val_df.shape}")
 
+    # test
+    # print("train_df is \n", train_df)
+    # print("train_target is \n", train_target)
+
     model = train_model(
         train_df, train_target, config.train_parameters
     )

@@ -30,6 +30,10 @@ def train_model(
         model = GaussianNB()
     else:
         raise NotImplementedError()
+
+    # test
+    print("features is \n", features)
+    print("target is \n", target)
     model.fit(features, target)
     return model
 

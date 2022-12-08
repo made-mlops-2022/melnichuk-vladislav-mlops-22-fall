@@ -9,6 +9,7 @@ Melnichuk Vladislav | ML-21 | Technopark | BMSTU
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+# run EDA_full.ipynb to create preprocessed features
 ~~~
 
 # Info

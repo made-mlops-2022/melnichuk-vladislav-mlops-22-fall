@@ -1,46 +1,61 @@
 age,sex,chest pain,resting blood pressure,cholesterol,fasting blood sugar,resting electrocardiographic results,max heart rate,exercise induced angina,oldpeak,slope,number of major vessels,thal
-66,female,asyptomatic,178,228,> 120 mg/dl,normal,165,yes,1.0,flat,2,reversable defect and the label
-59,male,asyptomatic,140,177,<= 120 mg/dl,normal,162,yes,0.0,upsloping,1,reversable defect and the label
-41,male,atypical angina,135,203,<= 120 mg/dl,normal,132,no,0.0,flat,0,fixed defect
-37,female,non-anginal pain,120,215,<= 120 mg/dl,normal,170,no,0.0,upsloping,0,normal
-64,male,typical angina,170,227,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,155,no,0.6,flat,0,reversable defect and the label
-68,female,non-anginal pain,120,211,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,115,no,1.5,flat,0,normal
-63,male,asyptomatic,130,330,> 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,132,yes,1.8,upsloping,3,reversable defect and the label
-70,male,asyptomatic,130,322,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,109,no,2.4,flat,3,normal
-59,male,typical angina,178,270,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,145,no,4.2,downsloping,0,reversable defect and the label
-44,male,non-anginal pain,130,233,<= 120 mg/dl,normal,179,yes,0.4,upsloping,0,normal
-43,male,asyptomatic,150,247,<= 120 mg/dl,normal,171,no,1.5,upsloping,0,normal
-68,male,non-anginal pain,118,277,<= 120 mg/dl,normal,151,no,1.0,upsloping,1,reversable defect and the label
-61,male,non-anginal pain,150,243,> 120 mg/dl,normal,137,yes,1.0,flat,0,normal
-58,female,non-anginal pain,120,340,<= 120 mg/dl,normal,172,no,0.0,upsloping,0,normal
-55,female,atypical angina,132,342,<= 120 mg/dl,normal,166,no,1.2,upsloping,0,normal
-58,male,asyptomatic,100,234,<= 120 mg/dl,normal,156,no,0.1,upsloping,1,reversable defect and the label
-43,female,asyptomatic,132,341,> 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,136,yes,3.0,flat,0,reversable defect and the label
-57,female,atypical angina,130,236,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,174,no,0.0,flat,1,normal
-50,male,asyptomatic,150,243,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,128,no,2.6,flat,0,reversable defect and the label
-41,male,non-anginal pain,112,250,<= 120 mg/dl,normal,179,no,0.0,upsloping,0,normal
-54,male,asyptomatic,120,188,<= 120 mg/dl,normal,113,no,1.4,flat,1,reversable defect and the label
-54,male,atypical angina,192,283,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,195,no,0.0,upsloping,1,reversable defect and the label
-44,male,atypical angina,130,219,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,188,no,0.0,upsloping,0,normal
-52,male,atypical angina,120,325,<= 120 mg/dl,normal,172,no,0.2,upsloping,0,normal
-45,male,asyptomatic,115,260,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,185,no,0.0,upsloping,0,normal
-56,male,asyptomatic,132,184,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,105,yes,2.1,flat,1,fixed defect
-64,male,asyptomatic,145,212,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,132,no,2.0,flat,2,fixed defect
-56,female,asyptomatic,200,288,> 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,133,yes,4.0,downsloping,2,reversable defect and the label
-51,male,typical angina,125,213,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,125,yes,1.4,upsloping,1,normal
-44,male,asyptomatic,120,169,<= 120 mg/dl,normal,144,yes,2.8,downsloping,0,fixed defect
-54,male,non-anginal pain,150,232,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,165,no,1.6,upsloping,0,reversable defect and the label
-58,female,asyptomatic,170,225,> 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,146,yes,2.8,flat,2,fixed defect
-71,female,atypical angina,160,302,<= 120 mg/dl,normal,162,no,0.4,upsloping,2,normal
-66,female,non-anginal pain,146,278,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,152,no,0.0,flat,1,normal
-61,male,typical angina,134,234,<= 120 mg/dl,normal,145,no,2.6,flat,2,normal
-69,male,non-anginal pain,140,254,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,146,no,2.0,flat,3,reversable defect and the label
-54,male,non-anginal pain,120,258,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,147,no,0.4,flat,0,reversable defect and the label
-65,female,non-anginal pain,155,269,<= 120 mg/dl,normal,148,no,0.8,upsloping,0,normal
-62,male,non-anginal pain,130,231,<= 120 mg/dl,normal,146,no,1.8,flat,3,reversable defect and the label
-71,female,non-anginal pain,110,265,> 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,130,no,0.0,upsloping,1,normal
-52,female,non-anginal pain,136,196,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,169,no,0.1,flat,0,normal
-50,male,non-anginal pain,140,233,<= 120 mg/dl,normal,163,no,0.6,flat,1,reversable defect and the label
-57,male,asyptomatic,132,207,<= 120 mg/dl,normal,168,yes,0.0,upsloping,0,reversable defect and the label
-44,male,atypical angina,120,263,<= 120 mg/dl,normal,173,no,0.0,upsloping,0,reversable defect and the label
-61,female,asyptomatic,130,330,<= 120 mg/dl,showing probable or definite left ventricular hypertrophy by Estes' criteria,169,no,0.0,upsloping,0,normal
+65,0,2,155,269,0,0,148,0,0.8,0,0,0
+58,1,1,120,284,0,2,160,0,1.8,1,0,0
+56,1,1,120,236,0,0,178,0,0.8,0,0,0
+70,1,1,156,245,0,2,143,0,0.0,0,0,0
+51,1,3,140,298,0,0,122,1,4.2,1,3,2
+71,0,2,110,265,1,2,130,0,0.0,0,1,0
+57,1,2,128,229,0,2,150,0,0.4,1,1,2
+67,1,3,100,299,0,2,125,1,0.9,1,2,0
+64,1,3,145,212,0,2,132,0,2.0,1,2,1
+35,1,3,120,198,0,0,130,1,1.6,1,0,2
+59,1,3,135,234,0,0,161,0,0.5,1,0,2
+44,1,2,130,233,0,0,179,1,0.4,0,0,0
+63,1,3,130,254,0,2,147,0,1.4,1,1,2
+52,1,0,152,298,1,0,178,0,1.2,1,0,2
+58,0,2,120,340,0,0,172,0,0.0,0,0,0
+50,1,2,140,233,0,0,163,0,0.6,1,1,2
+70,1,2,160,269,0,0,112,1,2.9,1,1,2
+61,1,3,148,203,0,0,161,0,0.0,0,1,2
+59,1,3,138,271,0,2,182,0,0.0,0,0,0
+68,1,2,118,277,0,0,151,0,1.0,0,1,2
+65,0,2,140,417,1,2,157,0,0.8,0,1,0
+44,1,3,112,290,0,2,153,0,0.0,0,1,0
+41,0,1,126,306,0,0,163,0,0.0,0,0,0
+62,0,3,160,164,0,2,145,0,6.2,2,3,2
+64,1,0,170,227,0,2,155,0,0.6,1,0,2
+62,0,3,150,244,0,0,154,1,1.4,1,0,0
+50,1,2,129,196,0,0,163,0,0.0,0,0,0
+39,1,2,140,321,0,2,182,0,0.0,0,0,0
+77,1,3,125,304,0,2,162,1,0.0,0,3,0
+51,1,3,140,261,0,2,186,1,0.0,0,0,0
+51,0,2,130,256,0,2,149,0,0.5,0,0,0
+41,0,1,130,204,0,2,172,0,1.4,0,0,0
+52,1,1,120,325,0,0,172,0,0.2,0,0,0
+40,1,3,110,167,0,2,114,1,2.0,1,0,2
+53,1,3,140,203,1,2,155,1,3.1,2,0,2
+54,1,3,110,206,0,2,108,1,0.0,1,1,0
+65,0,3,150,225,0,2,114,0,1.0,1,3,2
+44,1,3,110,197,0,2,177,0,0.0,0,1,0
+66,0,2,146,278,0,2,152,0,0.0,1,1,0
+68,0,2,120,211,0,2,115,0,1.5,1,0,0
+63,1,0,145,233,1,2,150,0,2.3,2,0,1
+53,1,2,130,246,1,2,173,0,0.0,0,3,0
+44,1,1,120,220,0,0,170,0,0.0,0,0,0
+47,1,2,138,257,0,2,156,0,0.0,0,0,0
+41,1,1,110,235,0,0,153,0,0.0,0,0,0
+45,1,1,128,308,0,2,170,0,0.0,0,0,0
+67,0,2,115,564,0,2,160,0,1.6,1,0,2
+56,0,1,140,294,0,2,153,0,1.3,1,0,0
+65,1,0,138,282,1,2,174,0,1.4,1,1,0
+60,1,3,130,206,0,2,132,1,2.4,1,2,2
+60,0,3,158,305,0,2,161,0,0.0,0,0,0
+56,1,0,120,193,0,2,162,0,1.9,1,0,2
+43,1,2,130,315,0,0,162,0,1.9,0,1,0
+41,0,1,105,198,0,0,168,0,0.0,0,1,0
+51,1,2,100,222,0,0,143,1,1.2,1,0,0
+49,1,2,120,188,0,0,139,0,2.0,1,3,2
+50,0,3,110,254,0,2,159,0,0.0,0,0,0
+49,0,1,134,271,0,0,162,0,0.0,1,0,0
+74,0,1,120,269,0,2,121,1,0.2,0,1,0
+51,1,2,94,227,0,0,154,1,0.0,0,1,2
