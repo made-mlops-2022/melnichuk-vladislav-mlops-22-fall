@@ -41,10 +41,10 @@ def evaluate_model(
         target = np.exp(target)
     return {
         "accuracy_score": accuracy_score(target, predicts),
-        "rmse": mean_squared_error(target, predicts, squared=False),
-        "mae": mean_absolute_error(target, predicts),
         "f1_score": f1_score(target, predicts),
         "r2_score": r2_score(target, predicts),
+        "rmse": mean_squared_error(target, predicts, squared=False),
+        "mae": mean_absolute_error(target, predicts),
     }
 
 
