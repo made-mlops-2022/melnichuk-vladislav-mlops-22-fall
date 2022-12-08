@@ -1,4 +1,4 @@
-data/**
+# data/**
 
 
 
@@ -112,3 +112,19 @@ venv.bak/
 .mypy_cache/
 
 .DS_Store
+
+# my personal files
+# todo/
+
+# jupyter notebook
+.ipynb_checkpoints/
+
+# hydra output dir with configs and log info
+outputs/
+
+# pytest cache
+.pytest_cache/
+
+# pycache 
+__pycache__/
+
