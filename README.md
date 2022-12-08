@@ -73,6 +73,7 @@ rm -r .venv | rm -r outputs | rm -r .ipynb_checkpoints
 python ml_project/setup.py sdist
 python setup.py install 
 
+# not Implemented
 # run with ml_flow
 python ml_project/predict_pipeline_full.py "use_mlflow=True"
 
