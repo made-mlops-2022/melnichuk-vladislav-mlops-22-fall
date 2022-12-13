@@ -1,9 +1,3 @@
-data/**
-
-
-
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -112,3 +106,30 @@ venv.bak/
 .mypy_cache/
 
 .DS_Store
+
+# my personal files
+# todo/
+
+# jupyter notebook
+.ipynb_checkpoints/
+
+# hydra output dir with configs and log info
+outputs/
+
+# pytest cache
+.pytest_cache/
+
+# pycache 
+__pycache__/
+
+# other
+
+
+# pycache 
+__pycache__/
+
+# Jupyter notebook
+.ipynb_checkpoints/
+
+# Hydra output directory with configs and log information
+outputs/

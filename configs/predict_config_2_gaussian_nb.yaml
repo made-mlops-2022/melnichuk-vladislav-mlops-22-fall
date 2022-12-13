@@ -1,0 +1,23 @@
+path_input_data: "data/preprocessed/test_features.csv"
+path_output_data: "reports/predictions/"
+model_path: "models/"
+model_type: "GaussianNB"
+use_mlflow: False
+feature_parameters:
+  categorical_features:
+    - "sex"
+    - "chest pain"
+    - "fasting blood sugar"
+    - "resting electrocardiographic results"
+    - "exercise induced angina"
+    - "slope"
+    - "number of major vessels"
+    - "thal"
+  numerical_features:
+    - "age"
+    - "resting blood pressure"
+    - "cholesterol"
+    - "max heart rate"
+    - "oldpeak"
+  target_column: "condition"
+  use_logarithm_trick: False
