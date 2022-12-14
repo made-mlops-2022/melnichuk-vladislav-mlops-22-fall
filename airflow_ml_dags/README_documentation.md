@@ -32,6 +32,8 @@ rm ~/.docker/config.json
 # execute in bash
 export FERNET_KEY=$(python3 -c "from cryptography.fernet import Fernet; FERNET_KEY = Fernet.generate_key().decode(); print(FERNET_KEY)")
 docker compose up --build
+# or
+sudo docker compose up --build
 # sudo docker-compose build --no-cache airflow-preprocess
 ~~~
 
