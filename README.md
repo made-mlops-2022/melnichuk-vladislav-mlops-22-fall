@@ -3,6 +3,8 @@ Melnichuk Vladislav | ML-21 | Technopark | BMSTU
 
 **Homework №2 | Online "Production ready" project to solve the problem of heart disease classification**
 
+[![.github/workflows/ci.yml](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-2-ci.yaml/badge.svg)](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-2-ci.yaml)
+
 # Setup
 
 ~~~
