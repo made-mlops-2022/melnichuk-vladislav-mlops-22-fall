@@ -4,6 +4,9 @@ Melnichuk Vladislav | ML-21 | Technopark | BMSTU
 MLOps course in Technopark (BMSTU)
 
 [![.github/workflows/ci.yml](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-1-ci.yaml/badge.svg)](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-1-ci.yaml)
+[![.github/workflows/ci.yml](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-2-ci.yaml/badge.svg)](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-2-ci.yaml)
+[![.github/workflows/ci.yml](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-3-ci.yaml/badge.svg)](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-3-ci.yaml)
+[![.github/workflows/ci.yml](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-4-ci.yaml/badge.svg)](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-4-ci.yaml)
 
 **Homework №1 | "Production ready" project to solve the problem of heart disease classification**
 
