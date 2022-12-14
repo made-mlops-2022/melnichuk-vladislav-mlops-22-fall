@@ -70,7 +70,7 @@ def test_endpoints_health():
     response = client.get('/health')
 
     assert response.status_code == 200
-    assert response.json() == 'Model is ready'
+    assert response.json() == 'Model is ready!'
 
 
 def test_skipped_fields():
@@ -121,7 +121,7 @@ def test_fields_numerical():
     )
 
     assert response.status_code == 422
-    assert response.json()['detail'][0]['msg'] == 'Wrong trestbps value'
+    assert response.json()['detail'][0]['msg'] == 'Wrong Trestbps!'
 
 
 def test_fields_categorical():

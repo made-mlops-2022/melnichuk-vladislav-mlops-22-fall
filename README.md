@@ -37,7 +37,11 @@ docker run --name online_inference -p 12000:12000 vlamelni/homework2:v3
 # Run Tests
 
 ~~~
+# execute in bash
 docker exec -it online_inference bash
+python3 -m pytest test_main.py
+
+# run in docker terminal
 python3 -m pytest test_main.py
 ~~~
 
@@ -45,6 +49,12 @@ python3 -m pytest test_main.py
 
 ~~~
 python3 requests/make_online_request.py
+~~~
+
+# Stop Service (Docker Container)
+
+~~~
+docker stop online_inference
 ~~~
 
 # Docker Image Optimization
@@ -63,5 +73,5 @@ Docker Image Size == 0.41 GB (2.4 GB)
 
 ### 3. v2 + minor bug fix
 
-[[v3]](https://hub.docker.com/layers/vlamelni/homework2/v3/images/sha256-41a0aacd3531699a406409f5d050b78840872fd15ae0b65ef88764a534dc0022s?context=repo)
+[[v3]](https://hub.docker.com/layers/vlamelni/homework2/v3/images/sha256-ebfc23bc0ce177b81fbabe0cfbaad9532be38886e8855c56d177e16be8d589d3?context=repo)
 Docker Image Size == 0.4 GB (2.3 GB)

@@ -20,7 +20,7 @@ def main_online_inference():
     )
     logger = logging.getLogger("Requests")
 
-    data = pd.read_csv('../data/heart_cleveland_upload.csv').drop('condition', axis=1)
+    data = pd.read_csv('./data/heart_cleveland_upload.csv').drop('condition', axis=1)
     data_requests = data.to_dict(orient='records')
 
     for request in data_requests:
