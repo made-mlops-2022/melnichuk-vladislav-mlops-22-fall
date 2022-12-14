@@ -63,5 +63,5 @@ Docker Image Size == 0.41 GB (2.4 GB)
 
 ### 3. v2 + minor bug fix
 
-[[v3]](https://hub.docker.com/layers/vlamelni/homework2/v3/images/sha256-70433ddf64ccb206bb89bb0dfd756cfe7ea22b19d2c489c37986100f6570fe10?context=repo)
+[[v3]](https://hub.docker.com/layers/vlamelni/homework2/v3/images/sha256-41a0aacd3531699a406409f5d050b78840872fd15ae0b65ef88764a534dc0022s?context=repo)
 Docker Image Size == 0.4 GB (2.3 GB)
