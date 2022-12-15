@@ -15,7 +15,7 @@ MLOps course in Technopark (BMSTU)
 
 [Homework №2 | online_inference](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/tree/homework2)
 
-**Homework №3 | ...**
+**Homework №3 | Airflow "Production ready" project to solve the problem of heart disease classification**
 
 [![.github/workflows/ci.yml](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-3-ci.yaml/badge.svg)](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-3-ci.yaml)
 
