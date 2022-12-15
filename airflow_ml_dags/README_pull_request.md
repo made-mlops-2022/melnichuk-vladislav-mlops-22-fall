@@ -9,7 +9,9 @@ MLOps | HW3
 
 Способ запуска проекта описан в "README.md"
 
-**[Screenshots of working AirFlow](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/blob/homework3/airflow_ml_dags/screenshots/airflow_full.jpg)**
+**[Screenshots of working AirFlow](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/blob/homework3/airflow_ml_dags/screenshots/)**
+
+![photo](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/blob/homework3/airflow_ml_dags/screenshots/airflow_compilation.jpg)
 
 **Основная часть:**
 
