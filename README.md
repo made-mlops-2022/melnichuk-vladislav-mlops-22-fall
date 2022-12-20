@@ -21,8 +21,6 @@ MLOps course in Technopark (BMSTU)
 
 [Homework №3 | airflow_ml_dags](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/tree/homework3)
 
-**Homework №4 | ...**
-
-[![.github/workflows/ci.yml](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-4-ci.yaml/badge.svg)](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/actions/workflows/homework-4-ci.yaml)
+**Homework №4 |  Kubernetes "Production ready" project to solve the problem of heart disease classification**
 
 [Homework №4 | kubernetes](https://github.com/made-mlops-2022/melnichuk-vladislav-mlops-22-fall/tree/homework4)
