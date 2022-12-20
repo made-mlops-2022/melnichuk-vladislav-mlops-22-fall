@@ -63,7 +63,7 @@ rm -r .venv | rm -r outputs | rm -r .ipynb_checkpoints
 
 # Solution
 
-Kubernetes запускается, как часть функционала Docker Desktop for Windows (Windows10 + WSL2 + Ubuntu20.04). Скриншоты можно найти в папке screenshots. Kubernetes поднимается локально на 80 порту (<http://localhost:80>).
+Kubernetes запускается, как часть функционала Docker Desktop for Windows (Windows10 + WSL2 + Ubuntu20.04 + VS Code (extension: Kubernetes Kind). Скриншоты можно найти в папке screenshots. Kubernetes поднимается локально на 80 порту (<http://localhost:80>).
 
 # Answers to homework questions
 
