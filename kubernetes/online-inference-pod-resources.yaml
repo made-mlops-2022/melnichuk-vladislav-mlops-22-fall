@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: online-inference-resources
+  labels:
+    app: online-inference
+spec:
+  containers:
+    - name: online-inference
+      image: vlamelni/online_inference:v3 # test1
+      ports:
+        - containerPort: 12000
+      resources:
+        requests:
+          memory: "256Mi"
+          cpu: "250m"
+        limits:
+          memory: "512Mi"
+          cpu: "500m"
