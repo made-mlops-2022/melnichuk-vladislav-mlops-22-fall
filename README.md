@@ -11,14 +11,36 @@ python -m venv .venv
 source .venv/bin/activate
 cd kubernetes
 
-pip install -r requirements.txt
+# pip install -r requirements.txt
+
+# setup on linux
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+kubectl version --client --output=yaml 
+
+curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 \
+  && chmod +x minikube
+
+sudo mkdir -p /usr/local/bin/
+sudo install minikube /usr/local/bin/
+
+# /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# brew install minikube
+
+minikube config set driver docker
+minikube delete
+minikube start
+
+kubectl config get-contexts
+kubectl config use-context docker-desktop
+kubectl cluster-info
 ~~~
 
 # Start and run
 
 ~~~
-# Start Cluster
-# minikube start
+# Start local cluster
+minikube start
 kubectl get po -A
 kubectl cluster-info
 
@@ -26,13 +48,13 @@ kubectl cluster-info
 kubectl apply -f online-inference-pod.yaml
 # kubectl apply -f <MANIFEST_NAME>.yaml
 
-kubectl apply -f online-inference-deployment-blue-green.yaml
-kubectl apply -f online-inference-deployment-rolling-update.yaml
 kubectl apply -f online-inference-pod.yaml
-kubectl apply -f online-inference-pod-probes.yaml
 kubectl apply -f online-inference-pod-resources.yaml
+kubectl apply -f online-inference-pod-probes.yaml
 kubectl apply -f online-inference-replicaset.yaml
 
+kubectl apply -f online-inference-deployment-blue-green.yaml
+kubectl apply -f online-inference-deployment-rolling-update.yaml
 
 # Checking pod status
 kubectl get pods
@@ -49,16 +71,21 @@ minikube dashboard
 # Stop and uninstall
 
 ~~~
-# stop kuberctl
+minikube stop
+# delete pods
+kubectl delete pod online-inference
+kubectl delete pod online-inference-probes
+kubectl delete pod online-inference-resources
 
+
+minikube delete
+deactivate
 cd ..
 
 # uninstall virtual environment (part)
-deactivate
 rm -r .venv
 
 # uninstall virtual environment (full)
-deactivate
 rm -r .venv | rm -r outputs | rm -r .ipynb_checkpoints
 ~~~
 
