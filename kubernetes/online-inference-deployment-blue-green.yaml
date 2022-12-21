@@ -22,6 +22,6 @@ spec:
     spec:
       containers:
         - name: online-inference
-          image: vlamelni/online_inference:v3 # test1
+          image: vlamelni/homework2:v3 # test1
           ports:
             - containerPort: 12000
