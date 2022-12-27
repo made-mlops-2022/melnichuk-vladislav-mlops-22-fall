@@ -123,3 +123,14 @@ outputs/
 __pycache__/
 
 # other
+
+
+
+# pycache 
+__pycache__/
+
+# Jupyter notebook
+.ipynb_checkpoints/
+
+# Hydra output directory with configs and log information
+outputs/
